@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "salary-service"
+version = "0.1.0"
+description = ""
+authors = ["yuri <yuri.shangaraev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "salary_service"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "1.11.1"
+asyncpg = "0.27.0"
+fastapi = "0.96.0"
+names = "0.3.0"
+passlib = "1.7.4"
+psycopg2 = "2.9.6"
+pydantic = "1.10.8"
+pyjwt = "2.7.0"
+sqlalchemy = "2.0.15"
+uvicorn = "0.22.0"
+python-multipart = "0.0.6"
+httpx = "0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
